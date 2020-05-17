@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="11" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-17T11:16:14 EDT" name="restassuredsuite" finished-at="2020-05-17T11:16:31 EDT" duration-ms="16807">
+    <groups>
+    </groups>
+    <test started-at="2020-05-17T11:16:14 EDT" name="restassuredtests" finished-at="2020-05-17T11:16:31 EDT" duration-ms="16807">
+      <class name="com.employeeapi.testcases.TC005_Delete_Employee_Record">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testcases.TC005_Delete_Employee_Record@dd0c991]" started-at="2020-05-17T11:16:24 EDT" name="setup" finished-at="2020-05-17T11:16:24 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="deleteEmployeeRecord()[pri:0, instance:com.employeeapi.testcases.TC005_Delete_Employee_Record@dd0c991]" started-at="2020-05-17T11:16:24 EDT" name="deleteEmployeeRecord" finished-at="2020-05-17T11:16:31 EDT" duration-ms="6136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployeeRecord -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.employeeapi.testcases.TC005_Delete_Employee_Record@dd0c991]" started-at="2020-05-17T11:16:31 EDT" name="checkResponseBody" finished-at="2020-05-17T11:16:31 EDT" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:751)
+at org.testng.Assert.assertEquals(Assert.java:761)
+at com.employeeapi.testcases.TC005_Delete_Employee_Record.checkResponseBody(TC005_Delete_Employee_Record.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+      </class> <!-- com.employeeapi.testcases.TC005_Delete_Employee_Record -->
+      <class name="com.employeeapi.testcases.TC003_Post_New_Employee_Record">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testcases.TC003_Post_New_Employee_Record@3cc1435c]" started-at="2020-05-17T11:16:19 EDT" name="setup" finished-at="2020-05-17T11:16:19 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="postNewEmployeerecord()[pri:0, instance:com.employeeapi.testcases.TC003_Post_New_Employee_Record@3cc1435c]" started-at="2020-05-17T11:16:19 EDT" name="postNewEmployeerecord" finished-at="2020-05-17T11:16:24 EDT" duration-ms="5577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewEmployeerecord -->
+        <test-method signature="getResponseBody()[pri:0, instance:com.employeeapi.testcases.TC003_Post_New_Employee_Record@3cc1435c]" started-at="2020-05-17T11:16:24 EDT" name="getResponseBody" finished-at="2020-05-17T11:16:24 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method signature="getStatusCode()[pri:0, instance:com.employeeapi.testcases.TC003_Post_New_Employee_Record@3cc1435c]" started-at="2020-05-17T11:16:24 EDT" name="getStatusCode" finished-at="2020-05-17T11:16:24 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method signature="getStatusLine()[pri:0, instance:com.employeeapi.testcases.TC003_Post_New_Employee_Record@3cc1435c]" started-at="2020-05-17T11:16:24 EDT" name="getStatusLine" finished-at="2020-05-17T11:16:24 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testcases.TC003_Post_New_Employee_Record@3cc1435c]" started-at="2020-05-17T11:16:24 EDT" name="tearDown" finished-at="2020-05-17T11:16:24 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testcases.TC003_Post_New_Employee_Record -->
+      <class name="com.employeeapi.testcases.TC004_Put_Employee_Record">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testcases.TC004_Put_Employee_Record@6bf0219d]" started-at="2020-05-17T11:16:19 EDT" name="setup" finished-at="2020-05-17T11:16:19 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="putEmployeeRecord()[pri:0, instance:com.employeeapi.testcases.TC004_Put_Employee_Record@6bf0219d]" started-at="2020-05-17T11:16:19 EDT" name="putEmployeeRecord" finished-at="2020-05-17T11:16:24 EDT" duration-ms="5571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putEmployeeRecord -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testcases.TC004_Put_Employee_Record@6bf0219d]" started-at="2020-05-17T11:16:24 EDT" name="checkStatusCode" finished-at="2020-05-17T11:16:24 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.employeeapi.testcases.TC004_Put_Employee_Record@6bf0219d]" started-at="2020-05-17T11:16:24 EDT" name="checkResponseBody" finished-at="2020-05-17T11:16:24 EDT" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.employeeapi.testcases.TC004_Put_Employee_Record.checkResponseBody(TC004_Put_Employee_Record.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+      </class> <!-- com.employeeapi.testcases.TC004_Put_Employee_Record -->
+      <class name="com.employeeapi.testcases.TC002_Get_Single_Employee_record">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testcases.TC002_Get_Single_Employee_record@236e3f4e]" started-at="2020-05-17T11:16:15 EDT" name="setup" finished-at="2020-05-17T11:16:15 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getSingleEmployeeRecord()[pri:0, instance:com.employeeapi.testcases.TC002_Get_Single_Employee_record@236e3f4e]" started-at="2020-05-17T11:16:15 EDT" name="getSingleEmployeeRecord" finished-at="2020-05-17T11:16:19 EDT" duration-ms="3556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleEmployeeRecord -->
+        <test-method signature="checkEmpID()[pri:0, instance:com.employeeapi.testcases.TC002_Get_Single_Employee_record@236e3f4e]" started-at="2020-05-17T11:16:19 EDT" name="checkEmpID" finished-at="2020-05-17T11:16:19 EDT" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:751)
+at org.testng.Assert.assertEquals(Assert.java:761)
+at com.employeeapi.testcases.TC002_Get_Single_Employee_record.checkEmpID(TC002_Get_Single_Employee_record.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmpID -->
+        <test-method signature="checkContentLength()[pri:0, instance:com.employeeapi.testcases.TC002_Get_Single_Employee_record@236e3f4e]" started-at="2020-05-17T11:16:19 EDT" name="checkContentLength" finished-at="2020-05-17T11:16:19 EDT" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [134] but found [75]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [134] but found [75]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.employeeapi.testcases.TC002_Get_Single_Employee_record.checkContentLength(TC002_Get_Single_Employee_record.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testcases.TC002_Get_Single_Employee_record@236e3f4e]" started-at="2020-05-17T11:16:19 EDT" name="checkStatusCode" finished-at="2020-05-17T11:16:19 EDT" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [400]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.employeeapi.testcases.TC002_Get_Single_Employee_record.checkStatusCode(TC002_Get_Single_Employee_record.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.employeeapi.testcases.TC002_Get_Single_Employee_record@236e3f4e]" started-at="2020-05-17T11:16:19 EDT" name="checkResponseTime" finished-at="2020-05-17T11:16:19 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkemployeeName()[pri:0, instance:com.employeeapi.testcases.TC002_Get_Single_Employee_record@236e3f4e]" started-at="2020-05-17T11:16:19 EDT" name="checkemployeeName" finished-at="2020-05-17T11:16:19 EDT" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:751)
+at org.testng.Assert.assertEquals(Assert.java:761)
+at com.employeeapi.testcases.TC002_Get_Single_Employee_record.checkemployeeName(TC002_Get_Single_Employee_record.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkemployeeName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testcases.TC002_Get_Single_Employee_record@236e3f4e]" started-at="2020-05-17T11:16:19 EDT" name="tearDown" finished-at="2020-05-17T11:16:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testcases.TC002_Get_Single_Employee_record -->
+      <class name="com.employeeapi.testcases.TC001_Get_All_Employees">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testcases.TC001_Get_All_Employees@71c3b41]" started-at="2020-05-17T11:16:14 EDT" name="setup" finished-at="2020-05-17T11:16:14 EDT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:com.employeeapi.testcases.TC001_Get_All_Employees@71c3b41]" started-at="2020-05-17T11:16:14 EDT" name="getAllEmployees" finished-at="2020-05-17T11:16:15 EDT" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method signature="checkCookieGenerated()[pri:0, instance:com.employeeapi.testcases.TC001_Get_All_Employees@71c3b41]" started-at="2020-05-17T11:16:15 EDT" name="checkCookieGenerated" finished-at="2020-05-17T11:16:15 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCookieGenerated -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.employeeapi.testcases.TC001_Get_All_Employees@71c3b41]" started-at="2020-05-17T11:16:15 EDT" name="checkResponseTime" finished-at="2020-05-17T11:16:15 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkResponseBodyNotNull()[pri:0, instance:com.employeeapi.testcases.TC001_Get_All_Employees@71c3b41]" started-at="2020-05-17T11:16:15 EDT" name="checkResponseBodyNotNull" finished-at="2020-05-17T11:16:15 EDT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBodyNotNull -->
+        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testcases.TC001_Get_All_Employees@71c3b41]" started-at="2020-05-17T11:16:15 EDT" name="checkContentType" finished-at="2020-05-17T11:16:15 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkServerType()[pri:0, instance:com.employeeapi.testcases.TC001_Get_All_Employees@71c3b41]" started-at="2020-05-17T11:16:15 EDT" name="checkServerType" finished-at="2020-05-17T11:16:15 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testcases.TC001_Get_All_Employees@71c3b41]" started-at="2020-05-17T11:16:15 EDT" name="checkStatusLine" finished-at="2020-05-17T11:16:15 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testcases.TC001_Get_All_Employees@71c3b41]" started-at="2020-05-17T11:16:15 EDT" name="tearDown" finished-at="2020-05-17T11:16:15 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testcases.TC001_Get_All_Employees -->
+    </test> <!-- restassuredtests -->
+  </suite> <!-- restassuredsuite -->
+</testng-results>
