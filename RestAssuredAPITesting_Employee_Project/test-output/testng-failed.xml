@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="com.employeeapi.utilities.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="methods" name="restassuredtests(failed)">
+  <test thread-count="5" name="restassuredtests(failed)">
     <classes>
       <class name="com.employeeapi.testcases.TC005_Delete_Employee_Record">
         <methods>

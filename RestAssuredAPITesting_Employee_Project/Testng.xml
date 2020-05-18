@@ -5,7 +5,7 @@
 <listeners>
 <listener class-name="com.employeeapi.utilities.Listeners"/>
 </listeners>
-    <test thread-count="5"  parallel = "methods" name="restassuredtests">
+    <test thread-count="5" name="restassuredtests">
         <classes>
             <class name="com.employeeapi.testcases.TC001_Get_All_Employees"/>
             <class name="com.employeeapi.testcases.TC002_Get_Single_Employee_record"/>

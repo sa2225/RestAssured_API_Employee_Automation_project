@@ -22,7 +22,7 @@ public class TestBase {
 
 	@BeforeClass // This setup method will execute first
 	public void setup() {
-		logger = logger.getLogger("EmployeeRestAPI");// give any name
+		logger = Logger.getLogger("EmployeeRestAPI");// give any name
 		PropertyConfigurator.configure("log4j.properties"); // give path of log4j properties file
 		logger.setLevel(Level.DEBUG);
 	}
